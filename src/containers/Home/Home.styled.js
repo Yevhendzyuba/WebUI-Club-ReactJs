@@ -5,6 +5,7 @@ export const IntroWrapper = styled.div`
     justify-content:center;
     align-items:center;
     margin:100px 0 200px 0;
+   
 `;
 export const IntroLogo = styled.img`
     width:470px;
@@ -32,6 +33,7 @@ export const IntroTextDescription = styled.p`
 export const CardWrapper = styled.div`
     display:flex;
     justify-content:space-around;
+    
 `;
 
 export const CardWrapperBlock = styled.div`

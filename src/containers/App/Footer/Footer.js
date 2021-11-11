@@ -16,19 +16,19 @@ function Footer() {
         <Container>
             <FooterWrapper>
                 <div>
-                    <FooterTitle>
-                        SportMaster
+                    <FooterTitle>MEGASPORT
                     </FooterTitle>
-                    <FooterDescription>Lorem ipsum dolor sit amet, consectetur<br/> adipisicing elit. Dicta laboriosam
-                        nihil
-                        quasi repudiandae<br/> totam velit veritatis?</FooterDescription>
+                    <FooterDescription>Lviv, Lvivska 258B <br/>
+                    Lviv, Zamarstunivska 345В <br/>
+                    Kyiv, Ernesta 123
+                    </FooterDescription>
                 </div>
                 <FooterLogo src={FooterLogoPic} alt="FooterLogo"/>
                 <div>
-                    <FaFacebook style={{paddingLeft: "20px",}} size={32}/>
-                    <FaTwitter style={{paddingLeft: "20px",}} size={32}/>
-                    <FaLinkedin style={{paddingLeft: "20px",}} size={32}/>
-                    <FaGoogle style={{paddingLeft: "20px",}} size={32}/>
+                    <FaFacebook style={{paddingLeft: "20px",}} size={28}/>
+                    <FaTwitter style={{paddingLeft: "20px",}} size={28}/>
+                    <FaLinkedin style={{paddingLeft: "20px",}} size={28}/>
+                    <FaGoogle style={{paddingLeft: "20px",}} size={28}/>
                 </div>
             </FooterWrapper>
             <HorizontalLine/>

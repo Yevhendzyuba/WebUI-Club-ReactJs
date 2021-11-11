@@ -14,20 +14,22 @@ export default styled(NavLink)`
 export const LinkItem = styled.li`
     padding:7px 35px;
     margin:0 15px;
-    color:blue;
     text-decoration:none;
     font-size:16px;
-    background:black;
-    color:white;
+    background:none;
+    color:black;
     font-weight:400;
     border-radius:30px;
+    &:hover{
+    background:grey;
+    color:white;
+    }
+    
 `;
 
 export const Navbar = styled.nav`
     display:flex;
     align-items:center;
-    margin-top:25px;
-    padding-bottom:15px;
     border-bottom:1px solid black;
 `;
 

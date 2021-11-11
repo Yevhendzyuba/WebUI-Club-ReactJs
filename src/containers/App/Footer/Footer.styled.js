@@ -17,18 +17,18 @@ export const FooterTitle = styled.h5`
 `;
 
 export const FooterLogo = styled.img`
-    width:230px;
+    width:220px;
     height:65px;
     margin-right:100px;
     border-radius:10px;
 `;
 
 export const FooterDescription = styled.p`
-    font-size:12px;
+    font-size:15px;
 `;
 
 export const HorizontalLine = styled.hr`
-    width:82%;
+    width:81%;
     height:1px;
     background:black;
 `;
@@ -37,6 +37,7 @@ export const Copyright = styled.p`
     text-align:center;
     font-family:Roboto;
     padding-bottom:5px;
+    margin-right:95px;
 `;
 
 

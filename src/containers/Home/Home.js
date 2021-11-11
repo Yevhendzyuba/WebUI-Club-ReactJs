@@ -9,36 +9,34 @@ function Home() {
             <IntroWrapper>
                 <IntroLogo src = {HomePageLogo} alt="Home Page Logo"/>
                 <IntroText>
-                    <IntroTextTitle>Спортивні товари на любий вибір!</IntroTextTitle>
-                    <IntroTextDescription>Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit.<br/> Dignissimos
-                        et expedita iure minus
-                        temporibus. Asperiores blanditiis<br/> corporis dolore earum fugit laudantium nam perspiciatis,
-                        reiciendis<br/> repellendus unde. Atque delectus exercitationem
-                        ratione.</IntroTextDescription>
+                    <IntroTextTitle>Great choice of goods!</IntroTextTitle>
+                    <IntroTextDescription>In our store you can find anything you want!<br/>
+                    We provide a wide range of quality products of famous brands from all over the world. <br/>
+                    I am sure, that in our store you will exactly find what you have been looking for a long time!
+                    </IntroTextDescription>
                 </IntroText>
             </IntroWrapper>
             <CardWrapper>
                 <CardWrapperBlock>
-                    <CardTextTitle>Надійність</CardTextTitle>
+                    <CardTextTitle>Reliability</CardTextTitle>
                     <CardTextDescription>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Dignissimos et expedita iure minus temporibus. Asperiores blanditiis
                         corporis dolore earum fugit laudantium nam perspiciatis, reiciendis
                         repellendus unde. Atque delectus exercitationem ratione.</CardTextDescription>
                 </CardWrapperBlock>
                 <CardWrapperBlock>
-                    <CardTextTitle>Чесність</CardTextTitle>
+                    <CardTextTitle>Faithfulness</CardTextTitle>
                     <CardTextDescription>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Dignissimos et expedita iure minus temporibus. Asperiores blanditiis
                         corporis dolore earum fugit laudantium nam perspiciatis, reiciendis
                         repellendus unde. Atque delectus exercitationem ratione.</CardTextDescription>
                 </CardWrapperBlock>
                 <CardWrapperBlock>
-                    <CardTextTitle>Якість</CardTextTitle>
+                    <CardTextTitle>Quality</CardTextTitle>
                     <CardTextDescription>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Dignissimos et expedita iure minus temporibus. Asperiores blanditiis
                         corporis dolore earum fugit laudantium nam perspiciatis, reiciendis
-                        repellendus unde. Atque delectus exercitationem ratione.</CardTextDescription>
+                        repellendus unde. Atque delectus exercitationem ratione. </CardTextDescription>
                 </CardWrapperBlock>
             </CardWrapper>
             <CardButtonWrapper>
