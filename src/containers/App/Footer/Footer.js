@@ -19,8 +19,8 @@ function Footer() {
                     <FooterTitle>MEGASPORT
                     </FooterTitle>
                     <FooterDescription>Lviv, Lvivska 258B <br/>
-                    Lviv, Zamarstunivska 345В <br/>
-                    Kyiv, Ernesta 123
+                        Lviv, Zamarstunivska 345В <br/>
+                        Kyiv, Ernesta 123
                     </FooterDescription>
                 </div>
                 <FooterLogo src={FooterLogoPic} alt="FooterLogo"/>
@@ -36,4 +36,5 @@ function Footer() {
         </Container>
     );
 }
+
 export default Footer;

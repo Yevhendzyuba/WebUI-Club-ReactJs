@@ -44,7 +44,7 @@ export const CardWrapperBlock = styled.div`
     flex-direction:column;
 `;
 
-export  const CardTextTitle = styled.h2`
+export const CardTextTitle = styled.h2`
     font-size:23px;
 `;
 

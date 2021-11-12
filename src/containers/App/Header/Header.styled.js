@@ -9,6 +9,7 @@ export const LinkingWrapper = styled.ul`
 
 export default styled(NavLink)`
     text-decoration:none;
+    color:black;
 `;
 
 export const LinkItem = styled.li`
@@ -19,12 +20,11 @@ export const LinkItem = styled.li`
     background:none;
     color:black;
     font-weight:400;
-    border-radius:30px;
+    border-radius:30px;  
     &:hover{
     background:grey;
     color:white;
     }
-    
 `;
 
 export const Navbar = styled.nav`
