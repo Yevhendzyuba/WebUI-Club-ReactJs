@@ -1,5 +1,6 @@
 import React from 'react'
-import { Item } from './Card.styled'
+import { Item, Button } from './Card.styled'
+
 
 
 
@@ -12,7 +13,7 @@ function Card(props) {
             <h3>{title}</h3>
             <p>Price: {price}</p>
             <p>Country: {country}</p>
-            <button type='button'>View more</button>
+            <Button>View more</Button>
         </Item>
     )
 }
