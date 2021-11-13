@@ -1,8 +1,19 @@
 import React from 'react';
+import Card from '../../components/Card/Card';
+import { data } from '../../components/data'
+import { CardItem } from '../../components/Card/Card.styled';
 
-function Catalog() {
+function Catalog(props) {
+
     return (
-        <div>Catalog Page</div>
+        <CardItem>
+            {data.map((item) => {
+                return (
+                    <Card key={item.id} {...item} />
+                )
+            })}
+        </CardItem>
+
     );
 }
 
