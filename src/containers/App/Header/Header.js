@@ -1,5 +1,5 @@
-import React from 'react';
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import React, {useEffect} from 'react';
+import {BrowserRouter as Router, Route, Routes,useLocation} from "react-router-dom";
 import {Container} from '../../../components/Global.styled';
 import {LinkingWrapper, LinkItem, Navbar, NavbarLogo} from "./Header.styled";
 import HeaderLogo from '../../../icons/header_logo.png';
@@ -7,6 +7,7 @@ import NavLink from './Header.styled'
 import Cart from "../../Cart/Cart";
 import Home from "../../Home/Home";
 import Catalog from "../../Catalog/Catalog";
+
 
 function Header() {
     return (
