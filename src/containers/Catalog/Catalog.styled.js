@@ -19,6 +19,7 @@ export const MenuBar = styled.div`
 export const Button = styled.button`
     width:150px;
     height:50px;
+    margin-right 800px;
     border:1px solid black;
     border-radius:10px;
 `;

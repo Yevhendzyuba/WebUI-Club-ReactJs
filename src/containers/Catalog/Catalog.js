@@ -9,7 +9,7 @@ import Card from '../../components/Card/Card';
 function Catalog() {
     return (
         <Container>
-            {/*<NavInput></NavInput>*/}
+
             <MenuBar>
                 <DropdownBar>
                     <Dropdown options={data}/>
@@ -17,6 +17,7 @@ function Catalog() {
                     <Dropdown options={data}/>
                 </DropdownBar>
                 <Button>Apply</Button>
+                <NavInput></NavInput>
             </MenuBar>
             <CardItem>
                 {data.map((item) => {

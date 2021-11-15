@@ -1,5 +1,5 @@
-import React, {useEffect} from 'react';
-import {BrowserRouter as Router, Route, Routes,useLocation} from "react-router-dom";
+import React from 'react';
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import {Container} from '../../../components/Global.styled';
 import {LinkingWrapper, LinkItem, Navbar, NavbarLogo} from "./Header.styled";
 import HeaderLogo from '../../../icons/header_logo.png';
