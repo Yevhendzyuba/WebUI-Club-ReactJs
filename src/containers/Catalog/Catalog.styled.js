@@ -23,3 +23,26 @@ export const Button = styled.button`
     border:1px solid black;
     border-radius:10px;
 `;
+
+
+export const ComentsSectionContainer = styled.div`
+    width: 90%;
+    margin: 0 auto;
+`;
+export const ComentsSection = styled.div`
+    width: 100%;
+`;
+export const ComentsBlock = styled.div`
+    padding-left: 4%;
+`;
+export const ComentsSectionName = styled.h2`
+    margin-top: 5%;
+`;
+export const ComentsSectionDescription = styled.div`
+    font-size: 14px;
+`;
+export const ComentsSectionThanks = styled.p`
+    font-size: 14px;
+    text-align: right;
+    font-style: italic;
+`;
