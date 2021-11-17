@@ -33,15 +33,17 @@ export const IntroTextDescription = styled.p`
 export const CardWrapper = styled.div`
     display:flex;
     justify-content:space-around;
-    
+    flex-wrap: wrap;
+
 `;
 
 export const CardWrapperBlock = styled.div`
-    width:300px;
+    width:30%;
     height:150px;
     display:flex;
     align-items:center;
     flex-direction:column;
+    padding-bottom: 8%;
 `;
 
 export const CardTextTitle = styled.h2`
@@ -50,19 +52,24 @@ export const CardTextTitle = styled.h2`
 
 export const CardTextDescription = styled.p`
     text-align:center;
+    width: 80%;
+
 `;
 
 export const CardButtonWrapper = styled.div`
     display:flex;
     align-items:center;
     justify-content:center;
-    margin-top:120px;
+    margin-top:60px;
 `;
 export const Button = styled.button`
     color:white;
     background:grey;
     width:150px;
     height:40px;
-    border:3px solid grey;
+    border:3px solid rgb(128, 128, 128);
     border-radius:8px;
+    &:hover{
+        border:3px solid rgb(88, 88, 88);
+    }
 `;

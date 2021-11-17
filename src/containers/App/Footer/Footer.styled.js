@@ -4,7 +4,7 @@ export const FooterWrapper = styled.div`
     display:flex;
     justify-content:space-around;
     align-items:center;
-    margin-top:100px;
+    margin-top:60px;
     border-top:1px solid black;
     padding:20px 0;
 `;
