@@ -21,4 +21,10 @@ export const CatalogSelect = styled.select`
   }
 `;
 
+export const CardWrapper = styled.div`
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin: 50px 0 150px 20px;
 
+`;
