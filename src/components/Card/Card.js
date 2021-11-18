@@ -1,6 +1,7 @@
 import React from 'react'
-import {Item, Button} from './Card.styled'
-
+import {Item} from './Card.styled'
+import Button from "../Button/Button";
+import {Link} from "react-router-dom";
 function Card(props) {
 
 
@@ -10,7 +11,10 @@ function Card(props) {
             <h3>Name: {props.sportBuilds.title}</h3>
             <p>Price: {props.sportBuilds.price}</p>
             <p>Country: {props.sportBuilds.country}</p>
-            <Button>View more</Button>
+            <Link exact to={`/catalog/item/${props.sportBuilds.id}`}>
+                <Button buttonText="View more" backgroundColor="#454545" color="#fff" fontSize="13px"
+                        padding="10px 45px"/>
+            </Link>
         </Item>
     )
 }

@@ -3,24 +3,6 @@ import Box from '../icons/box.jpg'
 import Football from '../icons/football_logo.jpg'
 import Rocket from '../icons/rocket.jpg'
 
-export const optionName = [
-    {
-        optionName: "Football Ball",
-    },
-    {
-        optionName: "Boxing Gloves",
-
-    },
-    {
-        optionName: "Tennis Rocket",
-
-    },
-    {
-        optionName: "Basket Hoop",
-    },
-
-]
-
 
 export const sportBuilds = [
 

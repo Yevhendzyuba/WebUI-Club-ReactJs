@@ -7,6 +7,7 @@ import NavLink from './Header.styled'
 import Cart from "../../Cart/Cart";
 import Home from "../../Home/Home";
 import Catalog from "../../Catalog/Catalog";
+import Item from "../../Item/Item";
 
 
 function Header() {
@@ -28,12 +29,17 @@ function Header() {
                             <NavLink exact to="/cart">
                                 <LinkItem>Cart</LinkItem></NavLink>
                         </li>
+                        <li>
+                            <NavLink exact to="/catalog/item">
+                            </NavLink>
+                        </li>
                     </LinkingWrapper>
                 </Navbar>
                 <Routes>
                     <Route exact path="/" element={<Home/>}/>
                     <Route exact path="/catalog" element={<Catalog/>}/>
                     <Route exact path="/cart" element={<Cart/>}/>
+                    <Route exact path="/catalog/item/:id" element={<Item/>}/>
                 </Routes>
             </Router>
         </Container>
