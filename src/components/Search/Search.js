@@ -10,8 +10,8 @@ function Search({searchState: [searchSport, setSearchSport]}) {
     return (
         <SearchWrapper>
             <NavInput value={text} icon="search" onChange={e => (setText(e.target.value))}/>
-            <Button buttonText="Search" backgroundColor="#fff" color="#000000" fontSize="16" padding="5px 15px"
-                    border="1px solid" onClick={e => (setSearchSport(text))}/>
+            <Button buttonText="Search" backgroundColor="#fff" color="#000000" fontSize="16" padding="5px 20px"
+    border="1px solid" onClick={e => (setSearchSport(text))}/>
         </SearchWrapper>
 
     );

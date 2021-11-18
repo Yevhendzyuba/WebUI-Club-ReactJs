@@ -3,26 +3,26 @@ import Box from '../icons/box.jpg'
 import Football from '../icons/football_logo.jpg'
 import Rocket from '../icons/rocket.jpg'
 
-// export const data = [
-//     {
-//         optionName: "Football Ball",
-//     },
-//     {
-//         optionName: "Boxing Gloves",
-//
-//     },
-//     {
-//         optionName: "Tennis Rocket",
-//
-//     },
-//     {
-//         optionName: "Basket Hoop",
-//     },
-//
-// ]
+export const optionName = [
+    {
+        optionName: "Football Ball",
+    },
+    {
+        optionName: "Boxing Gloves",
+
+    },
+    {
+        optionName: "Tennis Rocket",
+
+    },
+    {
+        optionName: "Basket Hoop",
+    },
+
+]
 
 
-export const data = [
+export const sportBuilds = [
 
     {
         id: 1,

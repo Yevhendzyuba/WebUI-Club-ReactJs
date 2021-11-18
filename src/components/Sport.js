@@ -1,5 +1,5 @@
 import React from "react";
 
-const Sport = React.createContext("light");
+const SportContext = React.createContext("light");
 
-export default Sport;
+export default SportContext;

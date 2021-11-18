@@ -3,13 +3,13 @@ import {Item, Button} from './Card.styled'
 
 function Card(props) {
 
-    const {img, title, price, country} = props;
+
     return (
         <Item>
-            <img src={img} width='200px' height='200px'/>
-            <h3>Name: {title}</h3>
-            <p>Price: {price}</p>
-            <p>Country: {country}</p>
+            <img src={props.sportBuilds.img} width='200px' height='200px'/>
+            <h3>Name: {props.sportBuilds.title}</h3>
+            <p>Price: {props.sportBuilds.price}</p>
+            <p>Country: {props.sportBuilds.country}</p>
             <Button>View more</Button>
         </Item>
     )
