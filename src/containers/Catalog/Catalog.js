@@ -17,6 +17,7 @@ import Card from '../../components/Card/Card';
 import Filter from "../../components/Filter/Filter";
 import PostList from '../../components/parts/PostList/PostList';
 import ComentForm from '../../components/parts/ComentForm/ComentForm'
+import {sportBuilds} from '../../components/data'
 
 function Catalog() {
     const [coments, setComents] = useState([
@@ -46,6 +47,7 @@ function Catalog() {
     const [filterSportName, setFilterSportName] = useState('None');
     const [filterSportCountry, setFilterSportCon] = useState('None');
     const [filterSportPrice, setFilterSportPrice] = useState('None');
+
 
     useEffect(() => {
         const pattern = new RegExp(searchSport, 'i');
@@ -84,11 +86,15 @@ function Catalog() {
                 </DropdownBar>
                 <Search searchState={[searchSport, setSearchSport]}/>
             </MenuBar>
-            <CardItem>
+            {sportBuild === sportBuilds
+                ? <h1>Завантаження</h1>
+                : 
+                <CardItem>
                 {items.map((sportBuilds) => (
                     <Card sportBuilds={sportBuilds}/>
                 ))}
-            </CardItem>
+            </CardItem>}
+            
             <ComentsSectionContainer>
                 <ComentsSection>
                     <ComentsSectionName>Comments</ComentsSectionName>
@@ -107,3 +113,5 @@ function Catalog() {
 
 
 export default Catalog;
+
+//=============== ====================== ========================== =====================
