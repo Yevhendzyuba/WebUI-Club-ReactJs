@@ -87,7 +87,7 @@ function Catalog() {
                 <Search searchState={[searchSport, setSearchSport]}/>
             </MenuBar>
             {sportBuild === sportBuilds
-                ? <h1>Завантаження</h1>
+                ? <div className="loader"></div>
                 : 
                 <CardItem>
                 {items.map((sportBuilds) => (
